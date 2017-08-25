@@ -1,5 +1,4 @@
-FROM ubuntu:16.04
-MAINTAINER Phusion <info@phusion.nl>
+FROM debian:jessie
 
 COPY . /bd_build
 
